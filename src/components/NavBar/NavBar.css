@@ -1,0 +1,11 @@
+.NavBar{
+    width: 85%;
+    background-color: #F2F3AE;
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+.right-nav{
+    width: 350px;
+}
+

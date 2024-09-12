@@ -1,0 +1,12 @@
+.main-container{
+    height: 900px;
+    width: 85%;
+}
+
+.left-part{
+    width: 65%;
+}
+
+.right-part{
+    width: 35%;
+}
