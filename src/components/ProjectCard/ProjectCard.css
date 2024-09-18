@@ -1,0 +1,10 @@
+.project-card{
+    height: 11rem;
+    /* background-color: white; */
+    border-bottom: 2px black solid;
+}
+
+.project-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+}

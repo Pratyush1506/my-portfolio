@@ -2,6 +2,9 @@ import React from 'react'
 import CustomBox from '../CustomBox/CustomBox'
 import './BentoBox.css'
 import AboutCard from '../AboutCard/AboutCard'
+import ExpCard from '../ExpCard/ExpCard'
+import ProjectsBox from '../ProjectsBox/ProjectsBox'
+import SkillSlider from '../SkillSlider/SkillSlider'
 
 const BentoBox = () => {
     
@@ -15,12 +18,17 @@ const BentoBox = () => {
                 <CustomBox width="35%" content="Image" />
             </div>
             <div className='lower-part h-1/2 flex flex-row'>
-                <CustomBox width="50%" content="Professional Exp" />
-                <CustomBox width="50%" content="Blogs" />
+                <ExpCard width= "60%" />
+                {/* <CustomBox width="50%" content="Professional Exp" /> */}
+                <div className='skills-blogs' style={{width: "40%"}}>
+                    <SkillSlider />
+                    {/* <CustomBox height="46.5%"  content="Blogs" /> */}
+                </div>
             </div>
         </div>
         <div className='right-part flex flex-col'>
-            <CustomBox height="80%"  content="Projects" />
+            <ProjectsBox height="80%" />
+            {/* <CustomBox height="80%"  content="Projects" /> */}
             <CustomBox height="20%" content="Socials" />
         </div>
     </div>

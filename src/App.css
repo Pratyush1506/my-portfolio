@@ -6,4 +6,6 @@ body{
 .bento-card {
     background-color: #F2F3AE;
     border-radius: 10px;
+    margin: 0.5rem;
+    padding: 1.2rem;
 }

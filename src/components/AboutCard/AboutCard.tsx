@@ -3,16 +3,17 @@ import './AboutCard.css'
 
 const AboutCard = (props:any) => {
   return (
-    <div className="bento-card m-2 p-4 px-6 flex flex-col gap-4" style={{width: props.width}}>
-        <div className="card-title font-semibold">
+    <div className="bento-card flex flex-col gap-4" style={{width: props.width}}>
+        <div className="card-title">
             Hey there! I'm Pratyush Jain
         </div>
         <div className="card-desc text-xl text-justify">
-            I'm Pratyush Jain, a Full Stack Developer, competitive coder, and passionate freelancer focused on creating impactful digital experiences. With a B.E. in Electronics and Communication Engineering from BMS College of Engineering, Bangalore, my journey in development has been fueled by a deep interest in problem-solving and coding.
-            Skilled in Java, the MERN stack, Git, OOPS, and Data Structures & Algorithms (DSA), I’m dedicated to crafting exceptional user experiences and innovative solutions.
-            Outside of coding, you’ll find me swimming, playing football, cycling, or exploring new sports. I’m always learning and staying updated with the latest tech trends.
+            A Full Stack Developer and competitive coder passionate about crafting impactful digital experiences. 
+            With a B.E. in Electronics and Communication from BMS College, Bangalore, I thrive on problem-solving and creating innovative solutions. 
+            Proficient in Java, MERN stack, Git, OOP, and DSA, I’m driven to build seamless user experiences. Outside of coding, you’ll find me in a 
+            swimming pool or on a football field  or cycling through adventures. Always eager to learn and stay updated on tech trends, 
         <br />
-            Check out my work, and if you’re interested in collaborating on something extraordinary, let’s connect and build something amazing together!
+            I’m excited to collaborate on exciting projects. Let’s connect and create something amazing!
         </div>
     </div>
   )
