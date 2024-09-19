@@ -5,6 +5,7 @@ import AboutCard from '../AboutCard/AboutCard'
 import ExpCard from '../ExpCard/ExpCard'
 import ProjectsBox from '../ProjectsBox/ProjectsBox'
 import SkillSlider from '../SkillSlider/SkillSlider'
+import SkillsBox from '../SkillsBox/SkillsBox'
 
 const BentoBox = () => {
     
@@ -20,9 +21,10 @@ const BentoBox = () => {
             <div className='lower-part h-1/2 flex flex-row'>
                 <ExpCard width= "60%" />
                 {/* <CustomBox width="50%" content="Professional Exp" /> */}
-                <div className='skills-blogs' style={{width: "40%"}}>
-                    <SkillSlider />
-                    {/* <CustomBox height="46.5%"  content="Blogs" /> */}
+                <div className='skills-blogs flex flex-col' style={{width: "40%"}}>
+                    <SkillsBox height="45%" />
+                    {/* <SkillSlider /> */}
+                    <CustomBox height="55%"  content="Blogs" />
                 </div>
             </div>
         </div>
