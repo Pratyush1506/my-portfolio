@@ -6,6 +6,7 @@ import ExpCard from '../ExpCard/ExpCard'
 import ProjectsBox from '../ProjectsBox/ProjectsBox'
 import SkillSlider from '../SkillSlider/SkillSlider'
 import SkillsBox from '../SkillsBox/SkillsBox'
+import ImgCard from '../ImgCard/ImgCard'
 
 const BentoBox = () => {
     
@@ -16,7 +17,8 @@ const BentoBox = () => {
             <div className='upper-part h-1/2 flex flex-row'>
                 <AboutCard width = "65%"/>
                 {/* <CustomBox width="65%" content="About" /> */}
-                <CustomBox width="35%" content="Image" />
+                {/* <CustomBox width="35%" content="Image" /> */}
+                <ImgCard width="35%" />
             </div>
             <div className='lower-part h-1/2 flex flex-row'>
                 <ExpCard width= "60%" />

@@ -1,0 +1,7 @@
+.my-img img{
+    object-fit: cover;
+}
+
+.my-img{
+    padding: 0;
+}

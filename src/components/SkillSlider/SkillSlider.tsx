@@ -47,6 +47,18 @@ const SkillSlider = (props:any) => {
             <img src={css_logo} alt="" />
             <p className="skill-name">CSS</p>
         </div>
+        <div className="item item9">
+            <img src={js_logo} alt="" />
+            <p className="skill-name">JavaScript</p>
+        </div>
+        <div className="item item10">
+            <img src={ts_logo} alt="" />
+            <p className="skill-name">TypeScript</p>
+        </div>
+        <div className="item item11">
+            <img src={sql_logo} alt="" />
+            <p className="skill-name">SQL</p>
+        </div>
     </div>
   )
 }

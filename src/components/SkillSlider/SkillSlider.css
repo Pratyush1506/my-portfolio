@@ -14,7 +14,7 @@
     /* background-color: red; */
     border-radius: 3px;
     position: absolute;
-    left: max(calc(80px * 8), 100%);
+    left: max(calc(80px * 11), 100%);
     animation-name: scrollLeft;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -31,35 +31,45 @@
 }
 
 .item1{
-    animation-delay: calc((20s / 8) * (8 - 1) * -1);
+    animation-delay: calc((20s / 11) * (11 - 1) * -1);
 }
 
 .item2{
-    animation-delay: calc((20s / 8) * (8 - 2) * -1);
+    animation-delay: calc((20s / 11) * (11 - 2) * -1);
 }
 
 .item3{
-    animation-delay: calc((20s / 8) * (8 - 3) * -1);
+    animation-delay: calc((20s / 11) * (11 - 3) * -1);
 }
 
 .item4{
-    animation-delay: calc((20s / 8) * (8 - 4) * -1);
+    animation-delay: calc((20s / 11) * (11 - 4) * -1);
 }
 
 .item5{
-    animation-delay: calc((20s / 8) * (8 - 5) * -1);
+    animation-delay: calc((20s / 11) * (11 - 5) * -1);
 }
 
 .item6{
-    animation-delay: calc((20s / 8) * (8 - 6) * -1);
+    animation-delay: calc((20s / 11) * (11 - 6) * -1);
 }
 
 .item7{
-    animation-delay: calc((20s / 8) * (8 - 7) * -1);
+    animation-delay: calc((20s / 11) * (11 - 7) * -1);
 }
 
 .item8{
-    animation-delay: calc((20s / 8) * (8 - 8) * -1);
+    animation-delay: calc((20s / 11) * (11 - 8) * -1);
+}
+
+.item9{
+    animation-delay: calc((20s / 11) * (11 - 9) * -1);
+}
+.item10{
+    animation-delay: calc((20s / 11) * (11 - 10) * -1);
+}
+.item11{
+    animation-delay: calc((20s / 11) * (11 - 11) * -1);
 }
 
 @keyframes scrollLeft{
