@@ -3,6 +3,14 @@
     width: 85%;
 }
 
+.upper-part{
+    height: 45%;
+}
+
+.lower-part{
+    height: 55%;
+}
+
 .left-part{
     width: 65%;
 }

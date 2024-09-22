@@ -9,7 +9,7 @@ const ProjectCard = (props:any) => {
             {props.name}
         </div>
         <div className="project-detail flex flex-row items-center gap-3">
-            <div className="project-img">
+            <div className="project-img flex flex-row justify-center">
                 <img src={props.img} alt=""/>
             </div>
             <div className="project-desc">
