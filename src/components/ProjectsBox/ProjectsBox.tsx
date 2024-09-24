@@ -1,10 +1,5 @@
 import React from 'react'
 import './ProjectsBox.css'
-import ProjectCard from '../ProjectCard/ProjectCard'
-import kanban_logo from '../../assets/kanban_logo.png';
-import hospitalfinder_logo from '../../assets/cross.png';
-import boookstore_logo from '../../assets/mern-logo.png';
-import kanban_gif from '../../assets/kanban_gif.gif';
 import ProjectsAccordion from '../ProjectsAccordion/ProjectsAccordion';
 
 const ProjectsBox = (props:any) => {
