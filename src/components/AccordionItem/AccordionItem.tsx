@@ -7,7 +7,7 @@ const AccordionItem = (props:any) => {
     <div className='accordion-item flex flex-col'>
       <div className="accordian-title cursor-pointer flex justify-between items-center gap-4" onClick={props.onClick}>
         {props.title}
-        <a href={props.url} target='_blank'>
+        <a href={props.url} target='_blank' rel="noreferrer">
         <span style={{fontSize: "1.1rem"}}><FaExternalLinkAlt /></span>
         </a>
       </div>

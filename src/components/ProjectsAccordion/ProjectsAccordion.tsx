@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import './ProjectsAccordion.css'
 import AccordionItem from '../AccordionItem/AccordionItem';
-import kanban_logo from '../../assets/kanban_logo.png';
 import hospitalfinder_gif from '../../assets/hospital_finder.gif';
 import boookstore_gif from '../../assets/bookstore.gif';
 import kanban_gif from '../../assets/kanban_gif.gif';
-import { url } from 'inspector';
 
 const ProjectsAccordion = () => {
 
