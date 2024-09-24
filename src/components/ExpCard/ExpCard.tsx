@@ -1,5 +1,7 @@
 import React from 'react'
 import './ExpCard.css'
+import philips_logo from '../../assets/philips_logo.png';
+import laptop_logo from '../../assets/laptop_logo.png'
 
 const ExpCard = (props:any) => {
   return (
@@ -7,17 +9,40 @@ const ExpCard = (props:any) => {
         <div className="card-title">
             Professional Experience
         </div>
-        <div className="card-desc text-justify flex flex-col justify-evenly gap-4">
+        <div className="card-desc text-justify flex flex-col justify-evenly">
             <div className="company-exp">
-                <span className='font-medium'>Philips India Limited</span>- I played a key role in the development of a Healthcare app. I enhanced user experience and 
-                visual appeal by creating over 30 UI/UX components, implemented dynamic PDF generation features, and resolved more than 
-                30 bugs to ensure application stability. My responsibilities also included leading manual testing for critical features, 
-                ensuring comprehensive functionality and reliability.
+                <div className='flex flex-row items-center gap-3 font-semibold'>
+                    <img src={philips_logo} alt="" style={{width: "2rem"}}/> Philips India Limited
+                </div>
+                <div className='exp-list'>
+                    <ul style={{listStyleType: "disc"}}>
+                        <li>
+                            Enhanced the Phillips Guide Health Service app by developing over 30 UI/UX components, 
+                            implementing dynamic PDF features, and resolving 30+ bugs. Led manual testing for critical features to ensure robust 
+                            functionality.
+                        </li>
+                        <li>
+                            <span>Tech Stack : </span> React Js, TypeScript, JavaScript, Git, Azure
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div className="freelance-exp">
-                <span className='font-medium'>Freelancer</span>- I completed diverse projects including a customized landing page for a marketing agency and developed personal projects.
-                I expanded my expertise in React frameworks such as Next.js and React Native, honed my skills in version control with Git,
-                and demonstrated strong time management and project delivery capabilities.
+                <div className='flex flex-row items-center gap-3 font-semibold'>
+                    <img src={laptop_logo} alt="" style={{width: "2rem"}}/> Freelance
+                </div>
+                <div className='exp-list'>
+                <ul style={{listStyleType: "disc"}}>
+                        <li>
+                            Completed a custom landing page for a marketing agency and personal projects, while expanding expertise in 
+                            React frameworks, improving Git skills, and demonstrating strong time management and project delivery.
+                        </li>
+                        <li>
+                            <span>Tech Stack : </span> React Js, React Native,Next Js, TypeScript, JavaScript, Git.
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </div>

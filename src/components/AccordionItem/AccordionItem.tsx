@@ -1,11 +1,15 @@
 import React from 'react'
 import './AccordionItem.css'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const AccordionItem = (props:any) => {
   return (
     <div className='accordion-item flex flex-col'>
-      <div className="accordian-title cursor-pointer flex items-center" onClick={props.onClick}>
+      <div className="accordian-title cursor-pointer flex justify-between items-center gap-4" onClick={props.onClick}>
         {props.title}
+        <a href={props.url} target='_blank'>
+        <span style={{fontSize: "1.1rem"}}><FaExternalLinkAlt /></span>
+        </a>
       </div>
       {
         props.isOpen && (

@@ -9,12 +9,12 @@ const AboutCard = (props:any) => {
             Hey there! I'm Pratyush Jain <span><img src={hand_wave}  alt="" /></span>
         </div>
         <div className="card-desc text-xl text-justify items-center">
-            A Full Stack Developer and competitive coder passionate about crafting impactful digital experiences. 
-            With a B.E. in Electronics and Communication from BMS College, Bangalore, I thrive on problem-solving and creating innovative solutions. 
-            Proficient in Java, MERN stack, Git, OOP, and DSA, I’m driven to build seamless user experiences. Outside of coding, you’ll find me in a 
-            swimming pool or on a football field  or cycling through adventures. Always eager to learn and stay updated on tech trends.
+          Full Stack Developer and competitive coder passionate about crafting digital experiences. With a B.E. in Electronics and 
+          Communication from BMS College, Bangalore, I excel in problem-solving and building innovative solutions. Proficient in Java, 
+          MERN stack, Git, OOP, and DSA, I focus on seamless user experiences. Outside of coding, I enjoy swimming, football, and cycling. 
+          Always eager to learn and explore new tech trends.
         <br />
-            I’m excited to collaborate on exciting projects. Let’s connect and create something amazing!
+          Let’s connect on exciting projects!
         </div>
     </div>
   )

@@ -1,13 +1,21 @@
 .accordion-item {
     padding: 10px;
-    border-bottom: 2px black solid;
+    border-bottom: 2.5px lightgray solid;
     gap: 5px;
+    border-radius:-4px -4px 4px 4px;
+    transition: background-color ease-in-out 0.2s;
   }
   
   .accordian-title{
     font-size: 1.5rem;
     height: 3.6rem;
     font-weight: 600;
+  }
+
+  
+
+  .accordion-item:hover{
+    background-color: lightgray;
   }
   
   .project-gif{
@@ -22,6 +30,7 @@
   .accordion-content {
     font-size: 1.15rem;
     gap: 5px;
+    transition: v;
   }
 
   .project-desc{
